@@ -14,3 +14,31 @@ sources:
       - name: taux_chomage_dep_20_21_22
         identifier: taux_chomage_departement_2020_2021_2022
 
+      - name : Analyse_depenses_brutes
+        identifier: Analyse_dep_distribution
+
+      - name : Commorbidites
+        identifier: commorbidites_2020_2022
+      
+      - name : Depenses_medicaments_2020
+        identifier: depenses_medicaments_2020
+
+      - name : Depenses_medicaments_2021
+        identifier: depenses_medicaments_2021
+
+      - name : Depenses medicaments_2022
+        identifier : depenses_medicaments_2022
+
+      - name: dept_region_name
+
+      - name: effectifs
+        identifier: effectifs_clean_V3
+
+      - name: equipements_culturels_france
+
+      - name: etudes_superieures
+        identifier: etudes_supp
+
+      - name: offre_soins
+        identifier: offre_soins_cleaned
+
