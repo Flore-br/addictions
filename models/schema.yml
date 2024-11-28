@@ -1,0 +1,8 @@
+version: 2
+
+sources: 
+  - name: bdd_projet
+    tables: 
+      - name: Depenses_par_actes
+        identifier: Analyse des depenses par actes
+
