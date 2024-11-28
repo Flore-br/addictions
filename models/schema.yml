@@ -5,4 +5,12 @@ sources:
     tables: 
       - name: Depenses_par_actes
         identifier: Analyse des depenses par actes
+      - name: pop_france_2023
+        identifier: population_france_2023
+      - name: prev_by_age
+        identifier: prev_by_age
+      - name: repartition_psychiatre
+        identifier: repartition_psychiatre
+      - name: taux_chomage_dep_20_21_22
+        identifier: taux_chomage_departement_2020_2021_2022
 
