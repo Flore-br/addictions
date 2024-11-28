@@ -10,11 +10,11 @@ renamed as (
 
     select
         rubrique,
-        2020,
-        2021,
+        `2020` AS y_2020
+        `2021` AS y_2021
         variation_abs_2021_2020,
         variation_pct_2021_2020,
-        2022,
+        `2022` AS y_2022
         variation_abs_2022_2021,
         variation_pct_2022_2021
 
