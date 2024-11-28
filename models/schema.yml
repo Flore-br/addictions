@@ -6,7 +6,6 @@ sources:
       - name: Depenses_par_actes
         identifier: Analyse des depenses par actes
       - name: pop_france_2023
-        identifier: population_france_2023
       - name: prev_by_age
         identifier: prev_by_age
       - name: repartition_psychiatre
@@ -18,7 +17,7 @@ sources:
         identifier: Analyse_dep_distribution
 
       - name : Commorbidites
-        identifier: commorbidites_2020_2022
+        identifier: comorbidites_2020_2022
       
       - name : Depenses_medicaments_2020
         identifier: depenses_medicaments_2020
