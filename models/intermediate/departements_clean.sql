@@ -12,4 +12,4 @@ LOWER (REGEXP_REPLACE(
       '-',' '),
     'ô','o'),
     r"'"," "))  as departement_lower
-FROM `projet-final-le-wagon-442809.bdd_projet.dept_region_name`
+FROM {{ ref('stg_bdd_projet__dept_region_name') }}
