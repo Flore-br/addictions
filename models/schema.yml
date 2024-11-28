@@ -41,4 +41,9 @@ sources:
 
       - name: offre_soins
         identifier: offre_soins_cleaned
-
+      - name: taux_chomage_region
+        identifier: taux_chomage_region_2020_2021_2022
+      - name: universitées
+        identifier: universities
+      - name: taux_pauvreté
+        identifier: tx_pauvrete
