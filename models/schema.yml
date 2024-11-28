@@ -6,6 +6,21 @@ sources:
       - name: Depenses_par_actes
         identifier: Analyse des depenses par actes
 
+      - name : Analyse_depenses_brutes
+        identifier: Analyse_dep_distribution
+
+      - name : Commorbidites
+        identifier: commorbidites_2020_2022
+      
+      - name : Depenses_medicaments_2020
+        identifier: depenses_medicaments_2020
+
+      - name : Depenses_medicaments_2021
+        identifier: depenses_medicaments_2021
+
+      - name : Depenses medicaments_2022
+        identifier : depenses_medicaments_2022
+
       - name: dept_region_name
 
       - name: effectifs
