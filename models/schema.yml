@@ -6,3 +6,16 @@ sources:
       - name: Depenses_par_actes
         identifier: Analyse des depenses par actes
 
+      - name: dept_region_name
+
+      - name: effectifs
+        identifier: effectifs_clean_V3
+
+      - name: equipements_culturels_france
+
+      - name: etudes_superieures
+        identifier: etudes_supp
+
+      - name: offre_soins
+        identifier: offre_soins_cleaned
+
