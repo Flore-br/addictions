@@ -9,9 +9,9 @@ source as (
 renamed as (
 
     select
-        string_field_0 AS num_departement,
-        string_field_1 AS intitule_departement,
-        string_field_2 AS total_pop
+        numero_departement AS num_departement,
+        intitule_departement AS intitule_departement,
+        population_totale AS total_pop
 
     from source
 
