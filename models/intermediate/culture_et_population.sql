@@ -58,6 +58,6 @@ total_popu,
 count_equipement,
 count_instal_sportive,
 total_equipements, 
-(total_equipements/total_popu) AS ratio_equipement_popu
+(total_popu/total_equipements) AS ratio_equipement_popu
 FROM sum_equipements
 
