@@ -30,3 +30,4 @@ renamed as (
 )
 
 select * from renamed
+WHERE cla_age_5 NOT IN ('00-04','05-sept.', 'oct.-14','5-sept','95et+')
