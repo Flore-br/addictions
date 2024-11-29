@@ -1,5 +1,5 @@
 select distinct
-    departement as n_departement,
+    FORMAT('%02d', departement) AS n_departement,
     lower(
         translate(libelle_departement, 'àèéêîòôùû', 'aeeeioouu')
     ) as libelle_departement,
