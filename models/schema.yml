@@ -46,3 +46,5 @@ sources:
         identifier: universities
       - name: taux_pauvreté
         identifier: tx_pauvrete
+
+      - name: etablissements_sportifs
