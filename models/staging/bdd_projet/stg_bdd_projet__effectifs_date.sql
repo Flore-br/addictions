@@ -1,15 +1,10 @@
-with 
-
-source as (
-
+with source as (
     select * from {{ source('bdd_projet', 'effectifs') }}
-
 ),
 
 renamed as (
-
     select
-        CAST(CAST(annee AS INT) AS STRING) AS annee_corrigee
+        DATE(CAST(annee AS INT), 1, 1) as annee,
         patho_niv1,
         patho_niv2,
         patho_niv3,
@@ -24,9 +19,7 @@ renamed as (
         libelle_classe_age,
         libelle_sexe,
         tri
-
     from source
-
 )
 
 select * from renamed
