@@ -1,6 +1,5 @@
 SELECT 
-annee,
--- SAFE_CAST(annee AS date),
+DATE(CONCAT(annee, '-01-01')) AS annee,
 patho_niv3,
 comorbidite,
 libelle_comorbidite,
