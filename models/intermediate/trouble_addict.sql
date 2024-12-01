@@ -6,7 +6,7 @@ libelle_comorbidite,
 region,
 dept,
 ncomorb,
-ntop,
+ntop AS npop,
 proportion_comorb,
 patho_niv2_comorb,
 FROM {{ ref('stg_bdd_projet__Commorbidites') }}
