@@ -23,7 +23,7 @@ sources:
       - name : Depenses medicaments_2022
         identifier : depenses_medicaments_2022
       - name: dept_region_name
-      - name: effectifs_clean_v3
+      - name: effectifs_clean_V3
         identifier: effectifs
       - name: equipements_culturels_france
       - name: etudes_superieures
@@ -37,5 +37,4 @@ sources:
       - name: taux_pauvreté
         identifier: tx_pauvrete
       - name: etablissements_sportifs
-      
         
