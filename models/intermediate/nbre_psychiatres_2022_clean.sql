@@ -7,4 +7,4 @@ END as n_departement,
 libelle_departement,
 secteur_conventionnel,
 effectif_psychiatres
-FROM {{ ref('nbre_psychiatres_departements_2023') }}
+FROM {{ ref('nbre_psychiatres_departements_2022') }}
