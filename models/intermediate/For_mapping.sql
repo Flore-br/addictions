@@ -7,7 +7,7 @@ annee,
     ecv.dept,
     Ntop,
     Npop,
-    prev,    
+    IFNULL (prev, 0) AS prev,
     libelle_sexe,
     tp.taux_pauvrete
 FROM {{ ref('bdd_projet_effectifs_V3') }} AS ecv
