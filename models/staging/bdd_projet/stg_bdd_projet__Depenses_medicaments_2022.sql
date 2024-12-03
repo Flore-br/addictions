@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('bdd_projet', 'Depenses medicaments_2022') }}
+    select * from {{ source('bdd_projet', 'Depenses_medicaments_2022') }}
 
 ),
 
